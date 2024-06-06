@@ -7,7 +7,10 @@ function Home({ books, error }) {
           <p className="text-xl text-center">Loading...</p>
         )}
         {books.map((book) => (
-          <div className="p-3 bg-red-50 overflow-hidden flex flex-col border border-red-200 rounded" key={book.id}>
+          <div
+            className="p-4 bg-red-50 overflow-hidden flex flex-col border border-red-200 rounded"
+            key={book.id}
+          >
             <div className="flex-grow flex items-center justify-center">
               <img
                 src={book.imageLinks.thumbnail}
@@ -35,7 +38,9 @@ function Home({ books, error }) {
                       />
                     </svg>
                   }
-                  <span class="ml-1">{book.averageRating}</span>
+                  <span class="ml-1 text-xs">{book.averageRating}</span>{" "}
+                  <span class="ml-1 line-through">Rs.999</span>{" "}
+                  <span class="ml-1">Free</span>
                 </span>
               </h2>
             </div>

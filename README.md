@@ -1,6 +1,5 @@
 # Book-App-CA-5
-==================================
-# React + Vite
+
 
 ![](https://github.com/sjarunvenkat/Book-App-CA-5/blob/main/Output/Home.jpeg)
 
@@ -8,9 +7,7 @@
 
 ![](https://github.com/sjarunvenkat/Book-App-CA-5/blob/main/Output/Register%202.jpeg)
 
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
+# React + Vite
 Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
